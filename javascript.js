@@ -65,7 +65,42 @@
 
 
 /***
+ * ****tableau ou Array******
+ * 
+ * Un array est un ensemble de données ordonnées qui se trouve sur une liste. Un array permet de créer une liste de valeurs ou
+ * d'objets. Grace à l'Array on peut trier ou afficher les données. Chaque élément d'un array possède un indice en javascript.
+ * Le premier indice débute à partir de zéro [0](avec donc pour premier indice le chiffre zéro).
  * 
  */
 
- addEventListener
+ let monArray = ["los angeles", "lakers", "boston celtics", 15, 
+    {
+        "sport": "basket",
+         equipe: "Lakers",
+         victoire: 74
+
+    },
+    "Lebron James"
+]
+
+console.log(monArray[4]["sport"])
+
+/**
+ * *******Erreurs*******
+ * 
+ * Ils existes trois  types d'erreurs:
+ * 
+ *Erreur de Syntax: Il peut s'agir d'une faute de frappe, de l'oublie d'une virgule, d'un crochet ou une faute d'orthographe sur un mot clé.
+ * 
+ *Erreur de Logique: Elle peut survenir quant on fait une erreur lors de l'affectation d'une valeur erronée à une variable.
+ * Quand on mélange les conditions dans les instructions if.
+ * Quand il y'a aussi une erreur d'ordre d'écriture dans les lignes ou blocs de codes.
+ * 
+ * Erreur d'executions: Survient quand il y'a problème de connexion réseau, une erreur humaine ou de saisie.
+ * Dans les situations ou l'on peut anticiper ces soucis, on peut prévoir un code de traitement d'erreur.
+ * Avec une condition if/else pour vérifier la validité des données.
+ * 
+ * 
+ * 
+ */
+ 
