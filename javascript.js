@@ -4,7 +4,7 @@
  * Une variable est donc une zone de memoire destiné à stocker(entreposer) une information.
  * On peut recupérer le contenu de cette boîte pour s'en servir ou le remplacer par autre chose.
  * 
- * On dispose de trois composants pour décrirer une variable:
+ * On dispose de trois composants pour décrire une variable:
  * 
  * Son nom: Une variable doit commencer par une lettre. Le caractère du tiret du 6(-) n'est pas autorisé car il 
  * correspond à l'opérateur de soustraction. Une variable est sensible à la casse. La phase de création d'une 
@@ -103,4 +103,100 @@ console.log(monArray[4]["sport"])
  * 
  * 
  */
- 
+
+ /**
+  * *********Fonctions*******
+  * 
+  * Ce sont des blocs de codes auxquels on attribue un nom, avec à l'intérieur des instructions. Pour éxecuter les instructions qui se trouve à l'interieur
+  * de cette fonction(on l'appel).
+  */
+
+  /**
+   * **Méthodes d'instances et de champs**
+   * 
+   * Est l'action de créer un objet à partir d'un modèle.
+   * 
+   * Avec deux opérations (l'allocation qui permet de reserver une place mémoire et l'initialisation qui consiste à fixer l'état du nouvel objet)
+   * 
+   * Une méthode d'instance est une fonction faisant partie d'une classe et qui agit sur une instance de cette classe.
+   */
+
+   /**
+    * *** Clean Code ***
+    * 
+    * DRY: Don't repeat yourself ( ne pas se repéter). 
+    * Si dans notre code, on a tendance à se répeter il faudra faire une refactorisation.
+    * 
+    * Refactorisation: Qui permet  de changer la structure des éléments sans modifier leurs comportement.
+    * 
+    */
+
+
+
+
+    /////////////////////////////
+
+
+    /**
+     * *****************DOM******
+     * 
+     * DOM: Veut dire (Document Object Model). C'est une interface de programmation qui est une répresentation
+     * du HTML de la page web. Le DOM permet d'accéder aux éléments de la page web et de les modifier avec le language JS.
+     * Le DOM permet donc d'interagir avec lui .
+     * 
+     * Exemple: Le schéma du DOM est semblable à un arbre( qui a plusieurs enfants, qui ont eux aussi d'autres enfants etc...).
+     *  
+     */
+      
+
+     /**
+      * **Document**
+      * Le document représente la page et il contient des fonctions. 
+      * 
+      * Parmi Les deux principales proriètés qui nous permettent de modifier directement un élément il y'a:
+      * InnerHTML et textContent. Il y'a aussi InnerText.
+      */
+
+
+      /**
+       * **Modifier les classes**
+       * 
+       * Avec la proprieté ClassList il est possible d'accéder directement, à la liste des classes d'un élément.
+       * ClassList fournit une série de fonctions permettant de modifier cette liste de classes.
+       * Comme:
+       *       Classlist.add
+       *       ClassList.remove
+       *       ClassList.Contains
+       *       ClassList.replace
+       * 
+       * 
+       */
+
+       /**
+        * **Changer les styles d'élement**
+        * 
+        *  Style: est un objet pour chaque style éxistant.
+        */
+
+
+        /**
+         * **Modifier les attributs**
+         * 
+         * Avec setAttribute,getAttribute et removeAttribute pour définir ou remplacer les attributs d'un element.
+         * 
+         */
+
+         /**
+          * **Créer de nouveaux éléments**
+          * 
+          * Avec la méthode CreatElement(). Un élément crée avec cette méthode ne fais pas encore partie du document.
+          * Il faudra l'ajouter en tant qu'enfant d'un élément.
+          * 
+          */
+        
+        /**
+        * **Ajouter des enfants**
+        * 
+        * Avec la méthode appendChild(). Qui est une fonction qui permet d'ajouter un élément à la liste des enfants du parent
+        * dépuis lequel il est appelée. 
+        */
